@@ -1,0 +1,12 @@
+[project]
+name = "ram-compare"
+version = "0.1.0"
+description = "A command-line tool to compare RAM usage of system processes between two snapshots."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "psutil>=7.1.3",
+]
+
+[project.scripts]
+ram-compare = "ram_compare:main"
